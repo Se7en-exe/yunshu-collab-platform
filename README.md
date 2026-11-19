@@ -350,4 +350,6 @@ public Result<Void> create(@RequestBody PurchaseDTO dto) { ... }
 
 ## License
 
-仅用于学习与作品展示。第三方依赖许可：Spring Boot / MyBatis-Plus / Sa-Token / Element Plus 均为 Apache-2.0 或 MIT。
+本项目采用 MIT License，详见 [LICENSE](LICENSE)。
+
+第三方依赖：Spring Boot / MyBatis-Plus / Sa-Token / Element Plus 均为 Apache-2.0 或 MIT。
