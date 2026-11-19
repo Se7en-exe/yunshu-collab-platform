@@ -2,7 +2,7 @@
 
 面向多部门中小团队的一体化协同后台：把**进销退存业务**、**任务派发与审核闭环**、**历史单据审批作废**、**公告与站内消息**、**安全审计**和**项目知识问答助手**放在同一套系统里。
 
-前后端分离，22 张表、147 个 REST 接口、33 个页面。
+前后端分离，22 张表、126 个 REST 接口、29 个页面。
 
 ![登录页](docs/screenshots/01-login.png)
 
@@ -255,7 +255,7 @@ QWEN_API_KEY=sk-xxx
 .
 ├─ back/                          # Spring Boot 后端
 │  └─ src/main/java/org/example/back/
-│     ├─ controller/              # 22 个控制器，147 个接口
+│     ├─ controller/              # 22 个控制器，126 个接口方法
 │     ├─ service/                 # 业务实现（状态流转、逾期扫描、知识库检索）
 │     ├─ mapper/                  # MyBatis-Plus Mapper
 │     ├─ entity/                  # 22 张表对应实体
@@ -271,7 +271,7 @@ QWEN_API_KEY=sk-xxx
 │     └─ util/
 ├─ front/                         # Vue 3 前端
 │  └─ src/
-│     ├─ views/                   # 33 个页面
+│     ├─ views/                   # 29 个页面
 │     │  ├─ business/             # 进销存
 │     │  └─ system/               # 系统管理、审计、助手
 │     ├─ layout/                  # 侧栏 + 顶栏骨架
